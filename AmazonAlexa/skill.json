@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa ask rocket elevators whats going on",
+            "Alexa ask rocket elevators what\u0027s the status of elevator 30",
+            "Alexa ask rocket elevator status of elevator 5"
+          ],
+          "keywords": [
+            "Rocket",
+            "Elevator"
+          ],
+          "name": "RocketElevators-AI",
+          "description": "It can give the status of an elevator by id or the overall information for the Information System.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "This is a student project. There is two command: one to call all the information for our fake company (restapi from the our database)  the other command is to call a specific elevator status by id.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "CA"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:466891591383:function:057ee590-8eaf-4c60-8f38-9e798cf66006:Release_1"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
